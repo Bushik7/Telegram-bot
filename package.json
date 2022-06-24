@@ -1,5 +1,5 @@
 {
-  "name": "telegram_bot",
+  "name": "telegram-bot-course",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.57.0",
-    "nodemon": "^2.0.16"
+    "node-telegram-bot-api": "^0.52.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
   }
 }
